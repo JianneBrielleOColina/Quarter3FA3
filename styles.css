@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif; /* Changed font to Montserrat */
+    background-color: #000000; /* Solid black background */
+    color: #f0f0f0; /* Light gray text for contrast */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+#container {
+    width: 90%; /* Full width */
+    max-width: 500px; /* Set max-width to a smaller size */
+    padding: 10px; /* Reduced padding */
+    background-color: #1a1a1a; /* Dark gray background */
+    border: 2px solid #b22222; /* Dark red border */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Strong shadow for depth */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: stretch; /* Stretch items to fill the container */
+}
+
+h1 {
+    color: #b22222; /* Dark red color for headings */
+    font-size: 24px; /* Adjusted font size */
+    text-align: left; /* Left-aligned heading */
+    margin-bottom: 5px; /* Reduced space below heading */
+    border-bottom: 2px solid #b22222; /* Underline effect */
+    padding-bottom: 5px; /* Padding below heading */
+}
+
+.intro {
+    font-size: 14px; /* Adjusted font size */
+    font-weight: 400; /* Normal weight */
+    margin-bottom: 10px; /* Reduced space below intro */
+    text-align: left; /* Left-aligned intro text */
+}
+
+.story-box {
+    background-color: #2c2c2c; /* Darker gray for story boxes */
+    padding: 8px; /* Reduced padding for comfort */
+    margin: 5px 0; /* Vertical spacing */
+    border-left: 5px solid #b22222; /* Left border for emphasis */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.story-box:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.start-btn {
+    background-color: #b22222; /* Dark red button */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    padding: 8px 15px; /* Reduced padding for button */
+    font-size: 14px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor */
+    margin: 10px 0; /* Reduced vertical spacing */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    align-self: flex-start; /* Align button to the left */
+}
+
+.start-btn:hover {
+    background-color: #8b0000; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.result {
+    margin-top: 10px; /* Reduced space above results */
+}
+
+.box {
+    margin: 5px 0; /* Vertical spacing */
+    padding: 8px; /* Reduced padding for comfort */
+    background-color: #3a3a3a; /* Lighter gray for result boxes */
+    font-size: 14px; /* Font size for results */
+    font-weight: 700; /* Bold text */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    border: 1px solid #444; /* Border for definition */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.box:hover {
+    background-color: #444; /* Darken on hover */
+}

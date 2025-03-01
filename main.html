@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doors: Hidden Horrors</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Doors: Hidden Horrors!</h1>
+
+        <p class="intro">
+            You awaken in a dimly lit hallway, lined with countless doors. Some whisper, others creak. Which one will you open?
+        </p>
+
+        <div class="story-box">
+            <p> This spooky situation will take [n] minutes, a horrifying experience awaits. </p>
+            <p><b>Stage 1:</b> Three doors stand before you, each marked with a number. The highest number determines your fate.</p>
+            <p><b>Stage 2:</b> Strange symbols cover the walls. Decode the hidden letter to proceed.</p>
+            <p><b>Stage 3:</b> The number you choose determines how many corridors you must cross.</p>
+        </div>
+
+        <button class="start-btn" onclick="generateNumbers()">Step Forward</button>
+
+        <div class="result">
+            <div class="box" id="biggest">1. <strong>Chosen Door:</strong> <span></span></div>
+            <div class="box" id="letter">2. <strong>Decoded Symbol:</strong> <span></span></div>
+            <div class="box" id="time">3. <strong>Time Taken:</strong> <span></span></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
